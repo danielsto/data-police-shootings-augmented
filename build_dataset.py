@@ -17,12 +17,12 @@ if __name__ == "__main__":
         shootings = download_current_data()
     else:
         print(f"{FOLDER}Using local version, there's a more recent version of this dataset at https://github.com/washingtonpost/data-police-shootings")
-        shootings = pd.read_csv("fatal-police-shootings-data.csv")
+        shootings = pd.read_csv("./data/fatal-police-shootings-data.csv")
 
-    census = pd.read_csv("statepop.csv", sep=";")
+    census = pd.read_csv("./data/statepop.csv", sep=";")
 
     # Join both dataframes by the state abbreviation
     res = pd.merge(shootings, census, on="state")
 
-    res.to_csv("police-shootings-data-census.csv")
+    res.to_csv("./data/police-shootings-data-census.csv")
     print(f"{CHECK}Dataset written as police-shootings-data-census.csv in current working directory")
