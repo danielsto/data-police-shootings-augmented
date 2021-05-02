@@ -1,10 +1,14 @@
 # data-police-shootings-augmented
 Augmented Washington Post's Fatal Force dataset using [original dataset](https://github.com/washingtonpost/data-police-shootings) and United States census data from 2017.
 
+## I just want the data
+
+[[ Download the dataset ](https://github.com/danielsto/data-police-shootings-augmented/raw/main/data/police-shootings-data-census.csv)]
+
 ## Install dependencies
 
 ```bash
-pip3 install requirements.txt
+pip3 install -r requirements.txt
 ```
 
 ## Run
