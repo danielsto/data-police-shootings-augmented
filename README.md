@@ -42,4 +42,8 @@ python build_dataset.py current
 [1] [The Washington Post](https://github.com/washingtonpost/data-police-shootings)  
 [2] [U.S. Census Bureau](https://www.census.gov/newsroom/press-kits/2018/acs-1year.html)
 
+## Related
+
+[3] [FiveThirtyEight](https://github.com/fivethirtyeight/data/tree/master/police-killings)
+
 
