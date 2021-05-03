@@ -5,6 +5,12 @@ Augmented Washington Post's Fatal Force dataset using [original dataset](https:/
 
 [[ Download the dataset ](https://github.com/danielsto/data-police-shootings-augmented/raw/main/data/police-shootings-data-census.csv)]
 
+## Data files explained
+
+* `data/fatal-police-shootings-data.csv`: data from The Washington Post [repository](https://github.com/washingtonpost/data-police-shootings).
+* `data/statepop.csv`: demographic data by state sourced from the [U.S. Census](https://www.census.gov/newsroom/press-kits/2018/acs-1year.html).
+* `data/police-shootings-data-census.csv`: resulting dataset as a combination of the previous ones.
+
 ## Install dependencies
 
 ```bash
